@@ -101,6 +101,9 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  - title: GitHub
+    url: https://github.com/username
+    icon: fab fa-github-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/andres-zarta-barrera/
+    icon: fab fa-linkedin
