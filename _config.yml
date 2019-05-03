@@ -16,15 +16,15 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: "Andres Zarta's Awesome Site"
+description: "Personal Site and Data Science Portfolio"
+baseurl: #"/"
+url: "https://andres-zartab.github.io/"
 logo: # path of site logo, e.g. "/images/logo.png"
-date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+date_format: "%Y-%m-%d"
+read_time: true
+words_per_minute: 200
+mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -87,14 +87,17 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Andres Zarta
   picture:
-  email:
+  email: andrezb5@gmail.com
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: GitHub
+      url: https://github.com/username
+      icon: fab fa-github-square
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/andres-zarta-barrera/
+      icon: fab fa-linkedin
 
 # Footer Links
 footer_links:
