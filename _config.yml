@@ -93,7 +93,7 @@ author:
   twitter:
   links:
     - title: GitHub
-      url: https://github.com/username
+      url: https://github.com/andres-zartab
       icon: fab fa-github-square
     - title: LinkedIn
       url: https://www.linkedin.com/in/andres-zarta-barrera/
@@ -102,7 +102,7 @@ author:
 # Footer Links
 footer_links:
   - title: GitHub
-    url: https://github.com/username
+    url: https://github.com/andres-zartab
     icon: fab fa-github-square
   - title: LinkedIn
     url: https://www.linkedin.com/in/andres-zarta-barrera/
