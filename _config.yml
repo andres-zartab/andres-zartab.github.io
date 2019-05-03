@@ -13,97 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
-locale: en-US
-title: "Andres Zarta's Awesome Site"
-description: "Personal Site and Data Science Portfolio"
-baseurl: #"/"
-url: "https://andres-zartab.github.io/"
-logo: # path of site logo, e.g. "/images/logo.png"
-date_format: "%Y-%m-%d"
-read_time: true
-words_per_minute: 200
-mathjax: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
-
-# Liquid
-liquid:
-  error_mode: strict
+title: "Hello. I'm Jami Gibbs."
+email: 'jami0821@gmail.com'
+description: "I'm a software developer and designer from Chicago creating useful things for the web."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'jamigibbs'
+github_username: 'jamigibbs'
+medium_username: 'blog.jamigibbs.com'
 
 # Build settings
-permalink: /:categories/:title/
 markdown: kramdown
-feed:
-  path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
-
-# Search
-search_full_content: false # can have performance implications for large sites
-
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+# theme: phantom # Uncomment once published to RubyGems
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
 
-# Front Matter Defaults
-defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
+### Phantom settings
+paginate: 10
+footer_text: '© 2018 Jami Gibbs'
+admin_name: 'Jami Gibbs'
+google_analytics: "UA-9999999-99" # Update with your own tracking ID
+enable_contact: false
 
-# Site Author
-author:
-  name: Andres Zarta
-  picture:
-  email: andrezb5@gmail.com
-  twitter:
-  links:
-    - title: GitHub
-      url: https://github.com/andres-zartab
-      icon: fab fa-github-square
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/andres-zarta-barrera/
-      icon: fab fa-linkedin
-
-# Footer Links
-footer_links:
-  - title: GitHub
-    url: https://github.com/andres-zartab
-    icon: fab fa-github-square
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/andres-zarta-barrera/
-    icon: fab fa-linkedin
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/about', text: 'About' }
