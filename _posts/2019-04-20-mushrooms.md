@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Mushroom Classification
+title: Mushroom Classification - Jupyter Notebook
+site: https://www.kaggle.com/andrezb5/exploratory-classifiers-interpretation
 git: https://github.com/andres-zartab/mushroom_classification
-site: https://andres-zartab.github.io/mushroom_classification
 ---
+Is a mushroom safe to eat or deadly poison?
 
-Is a mushroom safe to eat or deadly poison? Let's find out using some ML techniques! 
+### Exploratory Analysis / Feature Importance / Feature Interpretation
+
+__Tags__: Binary Classification, XGBoost, SVC, NB, Logit

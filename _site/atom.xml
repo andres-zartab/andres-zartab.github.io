@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Andrés Zarta</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-05-21T14:48:08-05:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Andrés Zarta</name>
+   <email>andrezb5@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Book Cover Reader - Python</title>
+   <link href="http://localhost:4000/2019/05/13/book_cover_reader/"/>
+   <updated>2019-05-13T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/05/13/book_cover_reader</id>
+   <content type="html">&lt;p&gt;This tool was created for the book’s inventory management of Tu Libro a Ciegas using Google Cloud.&lt;/p&gt;
+
+&lt;p&gt;Take picture of book cover-&amp;gt;Upload to Google Storage-&amp;gt;Google Vision will capture the text-&amp;gt;Google Books API request using the captured query-&amp;gt;Book info (authors, isbn code, etc) and errors are logged into BigQuery&lt;/p&gt;
+
+&lt;p&gt;Feel free to use it, you only need a google cloud account.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Forest Cover Type Classification - Jupyter Notebook</title>
+   <link href="http://localhost:4000/2019/05/03/forests/"/>
+   <updated>2019-05-03T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/05/03/forests</id>
+   <content type="html">&lt;p&gt;(under development)&lt;/p&gt;
+
+&lt;p&gt;Exploratory analysis and predictive modelling on the Forest Cover Type dataset using Random Forest (pun intended) and Artifical Neural Networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;: Multiclass Classification, Random Forest, ANN&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pulsar Star Detection - Jupyter Notebook</title>
+   <link href="http://localhost:4000/2019/04/30/pulsars/"/>
+   <updated>2019-04-30T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/04/30/pulsars</id>
+   <content type="html">&lt;p&gt;Can we predict a pulsar star in the universe? Let’s use the HTRU2 dataset and ML techniques to find out!&lt;/p&gt;
+
+&lt;h3 id=&quot;exploratory-analyisis--outlier-analysis--dimension-reduction--classifier-comparison&quot;&gt;Exploratory Analyisis / Outlier Analysis / Dimension Reduction / Classifier Comparison.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;: Binary Classification, XGBoost, KNN, NB and Logit&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mushroom Classification - Jupyter Notebook</title>
+   <link href="http://localhost:4000/2019/04/20/mushrooms/"/>
+   <updated>2019-04-20T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2019/04/20/mushrooms</id>
+   <content type="html">&lt;p&gt;Is a mushroom safe to eat or deadly poison?&lt;/p&gt;
+
+&lt;h3 id=&quot;exploratory-analysis--feature-importance--feature-interpretation&quot;&gt;Exploratory Analysis / Feature Importance / Feature Interpretation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;: Binary Classification, XGBoost, SVC, NB, Logit&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
