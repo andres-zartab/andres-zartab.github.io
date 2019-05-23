@@ -4,17 +4,6 @@
 {% include head.html %}
 
 <body>
-  <div class="row">
-    <div class="large-6 large-offset-3 columns">
-      <div class="icon-bar">
-          <a href="{{ site.url }}" class="home"><i class="fa fa-home"></i></a>
-          <a href="https://github.com/{{ site.github }}" class="github"><i class="fa fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/andres-zarta-barrera/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!" class="mail"><i class="fa fa-envelope"></i></a>
-      </div>
-    </div>
-  </div>
-
 
   <div class="row">
     <div class="large-12 large-centered columns">
@@ -47,19 +36,10 @@
           The paper can be found 
           <a href="https://github.com/andres-zartab/BasslineAlternativeRock/blob/master/paper/Thesis%20Paper.pdf">here</a>
           if you'd like to check it out.
-        </p>
-
-        </br>
-        <h2>Get In Touch!</h2>
-
-        <p>
-          Send me an
-          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
-          <a href="https://github.com/andres-zartab">Github</a> and
-          <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
-        </p>
+        </p>       
 
       </div>
+
 
       <main>
         <h2>Latest Work</h2>
@@ -80,6 +60,26 @@
           </div>
         {% endfor %}
       </main>
+
+      <h2>Get In Touch!</h2>
+
+        <p>
+          Send me an
+          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
+          <a href="https://github.com/andres-zartab">Github</a> and
+          <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
+        </p>
+
+        <div class="row">
+            <div class="large-12 large-centered columns">
+              <div class="icon-bar">
+                  <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!" class="mail"><i class="fa fa-envelope"></i></a>
+                  <a href="https://github.com/{{ site.github }}" class="github"><i class="fa fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/andres-zarta-barrera/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="{{ site.url }}" class="home"><i class="fa fa-home"></i></a>
+                </div>
+            </div>
+          </div>
 
       <footer>
         <p class="copyright">
