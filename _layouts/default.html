@@ -11,7 +11,6 @@
       <header class="masthead">
         <img src="{{ site.baseurl }}/public/profile.jpeg" alt="Andres Zarta">
       </header>
-
     </div>
   </div>
 
@@ -21,7 +20,7 @@
 
       <div class="content-section">
 
-        <p>
+        <p align=”justify”>
           Hello! My name is Andrés Zarta and I'm a Data Scientist from Bogotá. I work at
           <a href="https://tulibroaciegas.org/">Tu Libro a Ciegas</a>, 
           a startup with a strong social responsibility that connects people with books. 
@@ -37,19 +36,10 @@
           The paper can be found 
           <a href="https://github.com/andres-zartab/BasslineAlternativeRock/blob/master/paper/Thesis%20Paper.pdf">here</a>
           if you'd like to check it out.
-        </p>
-
-        </br>
-        <h2>Get In Touch!</h2>
-
-        <p>
-          Send me an
-          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
-          <a href="https://github.com/andres-zartab">Github</a> and
-          <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
-        </p>
+        </p>       
 
       </div>
+
 
       <main>
         <h2>Latest Work</h2>
@@ -71,6 +61,26 @@
         {% endfor %}
       </main>
 
+      <h2>Get In Touch!</h2>
+
+        <p>
+          Send me an
+          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
+          <a href="https://github.com/andres-zartab">Github</a> and
+          <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
+        </p>
+
+        <div class="row">
+            <div class="large-12 large-centered columns">
+              <div class="icon-bar">
+                  <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!" class="mail"><i class="fa fa-envelope"></i></a>
+                  <a href="https://github.com/{{ site.github }}" class="github"><i class="fa fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/andres-zarta-barrera/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="{{ site.url }}" class="home"><i class="fa fa-home"></i></a>
+                </div>
+            </div>
+          </div>
+
       <footer>
         <p class="copyright">
           <!-- &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. -->
@@ -81,31 +91,6 @@
         </p>
       </footer>
 
-    </div>
-
-    <div class="large-2 large-offset-1 columns social">
-      <ul>
-        <li>
-          <a href="https://github.com/{{ site.github }}">
-            <i class="fa fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/andres-zarta-barrera/">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">
-            <i class="fa fa-at"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.kaggle.com/andrezb5/">
-            <i class="fa fa-kaggle"></i>
-          </a>
-        </li>
-      </ul>
     </div>
 
   </div>
