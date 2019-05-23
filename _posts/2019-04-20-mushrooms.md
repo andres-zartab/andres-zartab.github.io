@@ -6,6 +6,4 @@ git: https://github.com/andres-zartab/mushroom_classification
 ---
 Is a mushroom safe to eat or deadly poison?
 
-### Exploratory Analysis / Feature Importance / Feature Interpretation
-
-__Tags__: Binary Classification, XGBoost, SVC, NB, Logit
+__Tags__: Binary Classification, XGBoost, SVC, NB, Logit, Exploratory Analysis, Feature Importance, Feature Interpretation

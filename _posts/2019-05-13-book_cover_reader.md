@@ -4,8 +4,8 @@ title: Book Cover Reader - Python
 git: https://github.com/andres-zartab/book_cover_reader
 ---
 
-This tool was created for the book's inventory management of Tu Libro a Ciegas using Google Cloud.
+Take picture of a book cover and let Google use their conv-net fueled Vision to capture the text within. Find the corresponding book in the Books API and log the most relevant info (and errors) to BigQuery.
 
-Take picture of book cover->Upload to Google Storage->Google Vision will capture the text->Google Books API request using the captured query->Book info (authors, isbn code, etc) and errors are logged into BigQuery
+Thanks to Google for powering the book’s inventory management of Tu Libro a Ciegas!
 
-Feel free to use it, you only need a google cloud account.
+__Tags__: Google Books API, Google Cloud Platform: [Storage, Vision, Bigquery]

@@ -4,7 +4,7 @@
 // page is wrapped in `.page` and is only used on the page layout.
 
 main h2 {
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 2em;
 }
 
@@ -41,8 +41,11 @@ main h2 {
 }
 
 .project-post {
-  h3, p {
-    font-size: 18px;
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
   }
   p {
     color: #8e8e8e;
