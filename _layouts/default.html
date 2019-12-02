@@ -22,21 +22,23 @@
 
         <p align=”justify”>
           Hello! My name is Andrés Zarta and I'm a Data Scientist from Bogotá. I work at
-          <a href="https://tulibroaciegas.org/">Tu Libro a Ciegas</a>, 
-          a startup with a strong social responsibility that connects people with books. 
+          <a href="https://www.facebook.com/TuLibroACiegas/">Tu Libro a Ciegas</a>,
+          a social project that connects people with books.
           Both at work and on my spare time I like to sharpen my Python, ML and Deep Learning
-          skills so I can contribute to cool projects. 
-          When I'm far from a computer I like to 
+          skills so I can contribute to cool projects. This year I have focused on learning Go, Docker and how to deploy
+          ML models.
+          When I'm far from a computer I like to
           play with my dog and go hiking.
         </p>
         <p>
           I got my Master's Degree in Operations Research back in 2016.
-          My thesis centered around the generation of alternative rock basslines given 
+          My thesis centered around the generation of alternative rock basslines given
           a melody and a drumbeat using metaheuristics and optimization techniques.
-          The paper can be found 
-          <a href="https://github.com/andres-zartab/BasslineAlternativeRock/blob/master/paper/Thesis%20Paper.pdf">here</a>
+          The paper can be found
+          <a
+            href="https://github.com/andres-zartab/BasslineAlternativeRock/blob/master/paper/Thesis%20Paper.pdf">here</a>
           if you'd like to check it out.
-        </p>       
+        </p>
 
       </div>
 
@@ -44,47 +46,51 @@
       <main>
         <h2>Latest Work</h2>
         {% for post in site.posts %}
-          <div class="project-post">
-            <h3><a href="{{ post.site }}">{{ post.title }}</a></h3>
+        <div class="project-post">
+          <h3><a href="{{ post.site }}">{{ post.title }}</a></h3>
 
-            {{ post.content }}
+          {{ post.content }}
 
-            <ul>
-              <li><a href="{{ post.git }}"><i class="fa fa-github"></i></a></li>
-              {% if post.site %}
-              <li><a href="{{ post.site }}"><i class="fa fa-link"></i></a></li>
-              {% endif %}
-            </ul>
+          <ul>
+            <li><a href="{{ post.git }}"><i class="fa fa-github"></i></a></li>
+            {% if post.site %}
+            <li><a href="{{ post.site }}"><i class="fa fa-link"></i></a></li>
+            {% endif %}
+          </ul>
 
-            <hr />
-          </div>
+          <hr />
+        </div>
         {% endfor %}
       </main>
 
       <h2>Get In Touch!</h2>
 
-        <p>
-          Send me an
-          <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
-          <a href="https://github.com/andres-zartab">Github</a> and
-          <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
-        </p>
+      <p>
+        Send me an
+        <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!">email</a>. I’m also on
+        <a href="https://github.com/andres-zartab">Github</a> and
+        <a href="https://www.linkedin.com/in/andres-zartab">Linkedin</a>.
+      </p>
 
-        <div class="row">
-            <div class="large-12 large-centered columns">
-              <div class="icon-bar">
-                  <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!" class="mail"><i class="fa fa-envelope"></i></a>
-                  <a href="https://github.com/{{ site.github }}" class="github"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/andres-zarta-barrera/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                  <a href="{{ site.url }}" class="home"><i class="fa fa-home"></i></a>
-                </div>
-            </div>
+      <div class="row">
+        <div class="large-12 large-centered columns">
+          <div class="icon-bar">
+            <a href="mailto:andrezb5@gmail.com?Subject=Hello,%Andres!" class="mail"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/{{ site.github }}" class="github"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/andres-zarta-barrera/" class="linkedin"><i
+                class="fa fa-linkedin"></i></a>
+            <a href="{{ site.url }}" class="home"><i class="fa fa-home"></i></a>
           </div>
+        </div>
+      </div>
 
       <footer>
         <p class="copyright">
           <!-- &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. -->
-          Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+          Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+            BY</a>
           </br>
           This site is based on the MIT licensed Jekyll template created by Jami Gibbs. The source code can be found
           <a href="https://github.com/jamigibbs/portfolio">here</a>.
